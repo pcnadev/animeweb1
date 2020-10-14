@@ -980,3 +980,61 @@ ul.list-anime > li div.title-in .anime-score span.score {
 
 
 }
+
+.menu-mobile {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 4px rgba(136,136,136,.25);
+  -moz-box-shadow: 0 0 4px rgba(136,136,136,.25);
+  box-shadow: 0 0 4px rgba(136,136,136,.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9d0102',endColorstr='#570102',GradientType=0);
+  border-top: 2px solid #dcdcdc;
+  z-index: 99;
+}
+
+.menu-mobile ul {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 7px 0 0;
+}
+
+.menu-mobile li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.menu-mobile li a {
+  color: #000000;
+  /* font-size: 12px; */
+  font-size: calc(100% - 50px);
+  display: block;
+  line-height: 1.5;
+}
+
+.menu-mobile li a:hover {
+  color: rgba(0,0,0,.7);
+}
+
+.menu-mobile li.active a {
+  color: #00aabc;
+}
+
+.menu-mobile li a i {
+  display: block;
+  font-size: 20px;
+  background: #00aabc;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1e767',endColorstr='#feb645',GradientType=0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .menu-mobile {
+      display: block;
+  }
+}

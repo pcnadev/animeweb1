@@ -1,3 +1,34 @@
+  <!-- menu mobile -->
+  <div class="menu-mobile">
+    <ul>
+        <li>
+            <a href="">
+                <i class="fas fa-home"></i>HOME
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fas fa-user"></i>SUB-THAI
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fas fa-sign-in-alt"></i>SOUND-THAI
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fas fa-cloud-download-alt"></i>MOVIE
+            </a>
+        </li>
+        <li>
+            <a href="https://lin.ee/cQkxJQK">
+                <i class="fab fa-line"></i>CONTRACT
+            </a>
+        </li>
+    </ul>
+  </div>
+
   <!-- Footer -->
   <footer class="footer bg-light">
     <div class="container">
